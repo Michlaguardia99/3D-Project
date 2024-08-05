@@ -13,11 +13,11 @@ const Navbar = () => {
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-[#000000]`}>
       <div className="w-full flex justify-between items-center max-w-xl mx-auto">
         <Link to="/" className="flex items-center gap-5" onClick={() => { setActive(''); window.scrollTo(0, 0); }}>
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[16px] font-bold cursor-pointer flex">
+          <img src={logo} alt="logo" className="w-10 h-10 object-contain" />
+          {/* <p className="text-white text-[16px] font-bold cursor-pointer flex">
             Michael &nbsp;
             <span className="sm:block">| Portfolio</span>
-          </p>
+          </p> */}
 
         </Link>
 
@@ -26,7 +26,7 @@ const Navbar = () => {
             <li
               key={link.id}
               className={`${active === link.title ? "text-white" : "text-secondary"
-                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                } hover:text-white text-[17px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>

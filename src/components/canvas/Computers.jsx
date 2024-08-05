@@ -63,11 +63,11 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-          enableZoom={true}
+          enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
-          minDistance={5} // Minimum zoom distance
-          maxDistance={30} // Maximum zoom distance
+          // minDistance={5} // Minimum zoom distance
+          // maxDistance={30} // Maximum zoom distance
         />
         <Computers isMobile={isMobile} />
       </Suspense>
@@ -79,4 +79,3 @@ const ComputersCanvas = () => {
 
 export default ComputersCanvas;
 
-// 2880x1566
