@@ -45,9 +45,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam vitae blanditiis perferendis porro perspiciatis, alias hic fugiat nulla. Voluptas quod, totam accusantium provident non repudiandae voluptate quos ullam aliquid?
+        I am a web developer with hands-on experience in developing and maintaining responsive WordPress websites. With a strong foundation in HTML, CSS, JavaScript, and PHP, I am passionate about transforming creative designs into functional web pages. I recently completed my BS in Information Technology with honors, and have worked as a web programmer at Dream Webworks Creations Inc., where I developed customized WordPress themes and integrated third-party APIs, including AI solutions. I am eager to continue learning and advancing my skills in web development.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

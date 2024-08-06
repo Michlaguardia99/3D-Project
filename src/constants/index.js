@@ -25,7 +25,8 @@ import {
     threejs,
     telus,
     techno,
-    gleent
+    gleent,
+    wordpress
   } from "../assets";
   
   export const navLinks = [
@@ -49,7 +50,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Wordpress Developer",
       icon: mobile,
     },
     {
@@ -57,7 +58,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "",
       icon: creator,
     },
   ];
@@ -72,21 +73,25 @@ import {
       icon: css,
     },
     {
+      name: "wordpress",
+      icon: wordpress,
+    },
+    {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -99,10 +104,10 @@ import {
     //   name: "MongoDB",
     //   icon: mongodb,
     // },
-    // {
-    //   name: "Three JS",
-    //   icon: threejs,
-    // },
+    {
+      name: "Three JS",
+      icon: threejs,
+    }
     // {
     //   name: "git",
     //   icon: git,
@@ -202,67 +207,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Wordpress Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "My WordPress portfolio, crafted using Elementor, JavaScript, and Vanta.js, showcases my expertise in web design and development.",
       tags: [
         {
-          name: "react",
+          name: "Elementor",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "PHP",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Vanta.js",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://olive-aardvark-760609.hostingersite.com/",
     },
     {
-      name: "Job IT",
+      name: "This Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This website is built using React, Vite, and Tailwind CSS, highlighting my proficiency in modern web development. React enables me to create dynamic UI.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "#",
     },
     {
-      name: "Trip Guide",
+      name: "Ecommerece Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This eCommerce website is built using Elementor, WooCommerce. Elementor provides a flexible and user-friendly interface, while Woocommerece for the payment etc.",
       tags: [
         {
-          name: "nextjs",
+          name: "Woocommerce",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "PHP",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "HTML | CSS",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://exams.technodreamcenter.com/michaelalain.laguardia/uiuxom/",
     },
   ];
   
